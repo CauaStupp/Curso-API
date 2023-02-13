@@ -1,2 +1,5 @@
 # Curso-API
- Curso de api com node js e mysql
+ Curso de API que fiz em NodeJs e MySql.
+ 
+ 
+
