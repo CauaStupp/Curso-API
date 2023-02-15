@@ -9,8 +9,11 @@ const connection = mysql.createConnection({
 });
 
 connection.connect((error) => {
-    if (error) throw new Error(error);
-    console.log('Tudo ok no ' + process.env.DB_NAME);
+    if (error) {
+        throw new Error(error);
+    } else {
+        console.log('Tudo ok no ' + process.env.DB_NAME);
+    }
 });
 
 module.exports = connection;
